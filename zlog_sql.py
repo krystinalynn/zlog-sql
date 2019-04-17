@@ -15,7 +15,7 @@ import znc
 # noinspection PyPep8Naming
 class zlog_sql(znc.Module):
     description = 'Logs all channels to a MySQL/SQLite database.'
-    module_types = [znc.CModInfo.GlobalModule]
+    module_types = [znc.CModInfo.NetworkModule]
 
     wiki_page = 'ZLog_SQL'
 
